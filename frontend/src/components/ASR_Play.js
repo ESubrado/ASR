@@ -3,6 +3,7 @@ import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
 import TimeCatcher from '../assets/scripts/timecatcher';
 import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // Helper function for conversion from time to seconds
 const timeToSeconds = (time) => {
